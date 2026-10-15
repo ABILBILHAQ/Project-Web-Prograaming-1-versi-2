@@ -1,0 +1,320 @@
+/* ==========================================================================
+   SISTEM EVALUASI KEGIATAN MAHASISWA TERHADAP PPKMB BERBASIS ANALISIS SENTIMEN
+   Desain UI/UX: Biru Navy (#0d254c), Putih (#ffffff), Aksen Biru Muda (#38bdf8 / #0284c7)
+   ========================================================================== */
+
+:root {
+    --navy-900: #071733;
+    --navy-800: #0d254c;
+    --navy-700: #163a70;
+    --sky-500: #0ea5e9;
+    --sky-400: #38bdf8;
+    --sky-100: #e0f2fe;
+    --sky-50: #f0f9ff;
+    --surface-bg: #f4f7fb;
+    --card-bg: #ffffff;
+    --text-main: #0f172a;
+    --text-muted: #475569;
+    --border-soft: #e2e8f0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--surface-bg);
+    color: var(--text-main);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Navbar Utama */
+.navbar-ppkmb {
+    background: linear-gradient(90deg, var(--navy-900) 0%, var(--navy-800) 65%, var(--navy-700) 100%);
+    border-bottom: 3px solid var(--sky-400);
+    box-shadow: 0 4px 14px rgba(13, 37, 76, 0.16);
+}
+
+.navbar-ppkmb .navbar-brand {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #ffffff !important;
+}
+
+.brand-badge {
+    background-color: rgba(56, 189, 248, 0.18);
+    color: var(--sky-400);
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    font-size: 0.72rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+/* Layout Dashboard dengan Sidebar */
+.app-wrapper {
+    display: flex;
+    min-height: calc(100vh - 64px);
+}
+
+.sidebar-ppkmb {
+    width: 268px;
+    background: linear-gradient(180deg, var(--navy-800) 0%, var(--navy-900) 100%);
+    color: #ffffff;
+    flex-shrink: 0;
+    transition: all 0.25s ease;
+    box-shadow: 4px 0 16px rgba(7, 23, 51, 0.08);
+    z-index: 1010;
+}
+
+.sidebar-ppkmb .nav-section-title {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.52);
+    padding: 1rem 1.25rem 0.4rem;
+    font-weight: 700;
+}
+
+.sidebar-ppkmb .nav-link {
+    color: rgba(255, 255, 255, 0.82);
+    padding: 0.68rem 1.25rem;
+    margin: 0.15rem 0.75rem;
+    border-radius: 0.55rem;
+    font-size: 0.92rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    transition: all 0.2s ease;
+}
+
+.sidebar-ppkmb .nav-link i {
+    font-size: 1.1rem;
+    color: var(--sky-400);
+    transition: transform 0.2s ease;
+}
+
+.sidebar-ppkmb .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.sidebar-ppkmb .nav-link.active {
+    background: linear-gradient(90deg, var(--sky-500) 0%, #0284c7 100%);
+    color: #ffffff;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.35);
+}
+
+.sidebar-ppkmb .nav-link.active i {
+    color: #ffffff;
+}
+
+.main-content {
+    flex-grow: 1;
+    min-width: 0;
+    padding: 1.6rem 1.8rem 3rem;
+}
+
+@media (max-width: 991.98px) {
+    .sidebar-ppkmb {
+        position: fixed;
+        top: 62px;
+        bottom: 0;
+        left: -280px;
+    }
+    .sidebar-ppkmb.show {
+        left: 0;
+    }
+    .main-content {
+        padding: 1.2rem 1rem 2.5rem;
+    }
+}
+
+/* Kartu Statistik & Komponen */
+.stat-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-soft);
+    border-radius: 0.85rem;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(13, 37, 76, 0.08);
+}
+
+.stat-card .stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    flex-shrink: 0;
+}
+
+.stat-navy { background-color: rgba(13, 37, 76, 0.1); color: var(--navy-800); }
+.stat-sky  { background-color: var(--sky-100); color: #0284c7; }
+.stat-pos  { background-color: #dcfce7; color: #15803d; }
+.stat-neg  { background-color: #fee2e2; color: #b91c1c; }
+.stat-neu  { background-color: #fef3c7; color: #b45309; }
+
+.card-modern {
+    background: var(--card-bg);
+    border: 1px solid var(--border-soft);
+    border-radius: 0.85rem;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+.card-modern .card-header {
+    background: transparent;
+    border-bottom: 1px solid var(--border-soft);
+    padding: 1rem 1.25rem;
+    font-weight: 700;
+    color: var(--navy-800);
+}
+
+/* Badge Sentimen */
+.badge-positif {
+    background-color: #dcfce7;
+    color: #166534;
+    border: 1px solid #86efac;
+    font-weight: 600;
+}
+
+.badge-negatif {
+    background-color: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fca5a5;
+    font-weight: 600;
+}
+
+.badge-netral {
+    background-color: #f1f5f9;
+    color: #334155;
+    border: 1px solid #cbd5e1;
+    font-weight: 600;
+}
+
+/* Tombol Utama Navy & Biru Muda */
+.btn-navy {
+    background-color: var(--navy-800);
+    border-color: var(--navy-800);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-navy:hover, .btn-navy:focus {
+    background-color: var(--navy-700);
+    border-color: var(--navy-700);
+    color: #ffffff;
+}
+
+.btn-sky {
+    background-color: var(--sky-500);
+    border-color: var(--sky-500);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-sky:hover {
+    background-color: #0284c7;
+    border-color: #0284c7;
+    color: #ffffff;
+}
+
+/* Komponen Rating Skala 1-5 Interaktif */
+.rating-group {
+    display: flex;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+}
+
+.rating-option input[type="radio"] {
+    display: none;
+}
+
+.rating-option label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 54px;
+    border: 2px solid var(--border-soft);
+    border-radius: 0.65rem;
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--text-muted);
+    background: #ffffff;
+    transition: all 0.18s ease;
+    user-select: none;
+}
+
+.rating-option label span.rate-num {
+    font-size: 1.05rem;
+    line-height: 1.1;
+}
+
+.rating-option label span.rate-lbl {
+    font-size: 0.62rem;
+    font-weight: 500;
+}
+
+.rating-option input[type="radio"]:checked + label {
+    background-color: var(--navy-800);
+    border-color: var(--sky-400);
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(13, 37, 76, 0.22);
+    transform: translateY(-1px);
+}
+
+.rating-option label:hover {
+    border-color: var(--sky-500);
+    background-color: var(--sky-50);
+}
+
+/* Loading Overlay */
+#globalLoadingOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(7, 23, 51, 0.68);
+    backdrop-filter: blur(3px);
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+#globalLoadingOverlay.active {
+    display: flex;
+}
+
+/* Print Stylesheet untuk Halaman Laporan */
+@media print {
+    .navbar-ppkmb,
+    .sidebar-ppkmb,
+    .no-print,
+    footer {
+        display: none !important;
+    }
+    .main-content {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    body {
+        background: #ffffff !important;
+    }
+    .card-modern, .stat-card {
+        box-shadow: none !important;
+        border: 1px solid #cbd5e1 !important;
+        break-inside: avoid;
+    }
+}

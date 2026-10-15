@@ -1,0 +1,181 @@
+id,text,label,aspect_category,source
+1,"Materinya sangat bermanfaat dan panitia sangat membantu mahasiswa baru.",positif,materi,initial_curated
+2,"Pemateri menyampaikan materi dengan sangat jelas, interaktif, dan tidak membosankan.",positif,pemateri,initial_curated
+3,"Panitia sangat ramah, sabar, dan sigap membantu kami saat kebingungan mencari gedung.",positif,panitia,initial_curated
+4,"Fasilitas aula sangat nyaman, AC dingin, dan sound system terdengar jernih sampai belakang.",positif,fasilitas,initial_curated
+5,"Konsumsi makan siang enak, porsinya cukup mengenyangkan, dan dibagikan tepat waktu.",positif,konsumsi,initial_curated
+6,"Jadwal kegiatan sangat tertib dan tepat waktu sesuai rundown yang dibagikan.",positif,jadwal,initial_curated
+7,"Kegiatan PPKMB tahun ini sangat seru, edukatif, dan membuka wawasan tentang dunia kampus.",positif,keseluruhan,initial_curated
+8,"Sangat puas dengan pelaksanaan PPKMB, tidak ada perpeloncoan sama sekali dan sangat humanis.",positif,keseluruhan,initial_curated
+9,"Narasumber dari alumni sangat menginspirasi dan memberikan motivasi belajar yang tinggi.",positif,pemateri,initial_curated
+10,"Kakak pendamping gugus sangat perhatian dan selalu mengingatkan jadwal dengan sopan.",positif,panitia,initial_curated
+11,"Materi pengenalan sistem akademik SIAKAD sangat jelas dan memudahkan saat pengisian KRS.",positif,materi,initial_curated
+12,"Ruangan bersih, kursi nyaman, serta fasilitas toilet dan mushola sangat memadai.",positif,fasilitas,initial_curated
+13,"Snack pagi dan makan siang sangat layak, air minum juga disediakan isi ulang.",positif,konsumsi,initial_curated
+14,"Waktu istirahat dan sholat diberikan dengan cukup, tidak terburu-buru.",positif,jadwal,initial_curated
+15,"Pengalaman PPKMB yang luar biasa, saya mendapat banyak teman baru dari berbagai jurusan.",positif,keseluruhan,initial_curated
+16,"Apresiasi tinggi untuk panitia yang tetap senyum dan ramah meskipun acara berlangsung seharian.",positif,panitia,initial_curated
+17,"Slide presentasi materi mudah dipahami, desainnya menarik dan informatif.",positif,materi,initial_curated
+18,"Pembicara sesi mental health dan adaptasi kampus sangat keren dan relevan bagi maba.",positif,pemateri,initial_curated
+19,"Layar proyektor besar dan jelas, pencahayaan ruangan juga sangat baik.",positif,fasilitas,initial_curated
+20,"Menu konsumsi bervariasi setiap hari dan higienis, terima kasih panitia konsumsi.",positif,konsumsi,initial_curated
+21,"Manajemen waktu panitia sangat bagus, acara mulai dan selesai tepat sesuai jadwal.",positif,jadwal,initial_curated
+22,"Secara keseluruhan acara PPKMB sangat sukses, tertib, dan berkesan positif.",positif,keseluruhan,initial_curated
+23,"Materi tentang organisasi kemahasiswaan UKM dan BEM sangat menarik dan memotivasi.",positif,materi,initial_curated
+24,"Dosen pemateri sangat komunikatif dan menjawab pertanyaan mahasiswa dengan baik.",positif,pemateri,initial_curated
+25,"Tim medis panitia sangat cepat tanggap membantu teman saya yang kelelahan.",positif,panitia,initial_curated
+26,"Koneksi WiFi kampus di area aula cukup stabil untuk mendukung kuis interaktif.",positif,fasilitas,initial_curated
+27,"Pembagian konsumsi sangat rapi dan antreannya teratur tanpa berdesakan.",positif,konsumsi,initial_curated
+28,"Transisi antar sesi sangat lancar dan tidak ada waktu kosong yang terbuang.",positif,jadwal,initial_curated
+29,"PPKMB ini benar-benar mengubah pandangan saya, kegiatannya edukatif dan menyenangkan.",positif,keseluruhan,initial_curated
+30,"Sangat terbantu dengan buku panduan PPKMB dan penjelasan materi etika akademik.",positif,materi,initial_curated
+31,"Pemateri berbicara dengan antusias sehingga suasana aula tetap hidup dan semangat.",positif,pemateri,initial_curated
+32,"Panitia keamanan dan ketertiban tegas namun tetap sopan tanpa membentak mahasiswa.",positif,panitia,initial_curated
+33,"Tempat duduk di gedung auditorium empuk dan kapasitasnya mencukupi seluruh peserta.",positif,fasilitas,initial_curated
+34,"Konsumsi ramah bagi mahasiswa yang memiliki alergi karena didata terlebih dahulu.",positif,konsumsi,initial_curated
+35,"Durasi setiap sesi pas, tidak terlalu lama sehingga kami tetap fokus menyimak.",positif,jadwal,initial_curated
+36,"Acara penutupan dan inagurasi sangat meriah, rapi, dan meninggalkan kesan mendalam.",positif,keseluruhan,initial_curated
+37,"Penjelasan mengenai beasiswa dan program pertukaran mahasiswa sangat bermanfaat.",positif,materi,initial_curated
+38,"Moderator dan pemateri sangat kompak membawakan sesi diskusi interaktif.",positif,pemateri,initial_curated
+39,"Koordinasi panitia di lapangan sangat rapi mulai dari registrasi pagi hingga pulang.",positif,panitia,initial_curated
+40,"Tersedia fasilitas ramah disabilitas dan jalur evakuasi yang jelas di gedung acara.",positif,fasilitas,initial_curated
+41,"Air mineral dan roti saat registrasi pagi sangat membantu bagi yang belum sarapan.",positif,konsumsi,initial_curated
+42,"Rundown acara diinformasikan sejak H-3 sehingga kami bisa bersiap dengan baik.",positif,jadwal,initial_curated
+43,"Senang sekali bisa mengikuti PPKMB yang mengedepankan intelektualitas dan kekeluargaan.",positif,keseluruhan,initial_curated
+44,"Materi literasi digital dan pencegahan plagiarisme sangat berguna untuk perkuliahan nanti.",positif,materi,initial_curated
+45,"Narasumber menyampaikan materi dengan contoh nyata yang mudah dimengerti mahasiswa baru.",positif,pemateri,initial_curated
+46,"Kakak mentor sangat suportif dan membantu kami memahami budaya akademik fakultas.",positif,panitia,initial_curated
+47,"Kebersihan area kampus dan gedung kegiatan terjaga dengan sangat baik.",positif,fasilitas,initial_curated
+48,"Kualitas makanan sangat baik, nasi hangat dan lauknya segar.",positif,konsumsi,initial_curated
+49,"Ketepatan waktu istirahat sholat dzuhur dan ashar sangat dihargai.",positif,jadwal,initial_curated
+50,"Sangat mengapresiasi kerja keras seluruh panitia dan dosen, PPKMB berjalan lancar.",positif,keseluruhan,initial_curated
+51,"Materi pengenalan laboratorium dan perpustakaan sangat membantu mahasiswa baru.",positif,materi,initial_curated
+52,"Pemateri sesi kewirausahaan sangat seru dan memberikan banyak insight praktis.",positif,pemateri,initial_curated
+53,"Sikap panitia sangat profesional, ramah, dan menghargai mahasiswa baru.",positif,panitia,initial_curated
+54,"Tata panggung dan audio visual sangat mendukung kelancaran seluruh sesi acara.",positif,fasilitas,initial_curated
+55,"Distribusi makan siang cepat dan merata ke seluruh gugus tanpa kendala.",positif,konsumsi,initial_curated
+56,"Jadwal kegiatan disusun secara proporsional antara materi di dalam ruangan dan ice breaking.",positif,jadwal,initial_curated
+57,"Secara umum saya merasa bangga dan senang menjadi bagian dari kampus ini lewat PPKMB.",positif,keseluruhan,initial_curated
+58,"Materi pencegahan kekerasan seksual di kampus disampaikan dengan sangat tegas dan jelas.",positif,materi,initial_curated
+59,"Narasumber sangat terbuka terhadap pertanyaan kritis dari mahasiswa baru.",positif,pemateri,initial_curated
+60,"Terima kasih panitia PPKMB atas pelayanan dan pendampingan terbaik selama kegiatan.",positif,panitia,initial_curated
+61,"Jadwal kegiatan terlalu padat dan waktu istirahat sangat kurang sehingga kami kelelahan.",negatif,jadwal,initial_curated
+62,"Suara mikrofon sering mati dan berdengung sehingga materi tidak terdengar dari barisan belakang.",negatif,fasilitas,initial_curated
+63,"Masih ada oknum panitia yang membentak-bentak tanpa alasan yang jelas saat baris-berbaris.",negatif,panitia,initial_curated
+64,"Pembagian makan siang sangat terlambat dan sebagian nasi kotak sudah dingin serta keras.",negatif,konsumsi,initial_curated
+65,"Materi terlalu monoton karena pemateri hanya membaca teks di slide selama dua jam penuh.",negatif,pemateri,initial_curated
+66,"Isi materi terlalu bertele-tele dan banyak pengulangan topik yang sama antar sesi.",negatif,materi,initial_curated
+67,"Ruangan aula sangat panas dan pengap karena AC tidak berfungsi dengan baik.",negatif,fasilitas,initial_curated
+68,"Acara molor lebih dari satu jam dari jadwal yang tertulis di rundown.",negatif,jadwal,initial_curated
+69,"Koordinasi antar panitia kurang kompak, informasi penugasan sering berubah mendadak malam hari.",negatif,panitia,initial_curated
+70,"Porsi konsumsi terlalu sedikit dan air minum habis saat cuaca sedang sangat terik.",negatif,konsumsi,initial_curated
+71,"Kecewa dengan pelaksanaan hari pertama yang kacau dan membuat mahasiswa menunggu lama di lapangan.",negatif,keseluruhan,initial_curated
+72,"Slide presentasi terlalu penuh tulisan kecil sehingga tidak terbaca dari tempat duduk tengah.",negatif,materi,initial_curated
+73,"Pemateri berbicara terlalu cepat dan kurang memberi kesempatan tanya jawab kepada mahasiswa.",negatif,pemateri,initial_curated
+74,"Toilet di dekat gedung acara kotor dan airnya sempat mati pada siang hari.",negatif,fasilitas,initial_curated
+75,"Waktu ishoma hanya diberikan 20 menit padahal antrean tempat wudhu dan sholat sangat panjang.",negatif,jadwal,initial_curated
+76,"Sikap beberapa panitia divisi kedisiplinan terlalu arogan dan kurang menghargai mahasiswa.",negatif,panitia,initial_curated
+77,"Ada kotak makanan yang basi pada hari kedua, mohon evaluasi vendor kateringnya.",negatif,konsumsi,initial_curated
+78,"Kegiatan terlalu menguras fisik dan kurang efektif dalam menyampaikan esensi pengenalan kampus.",negatif,keseluruhan,initial_curated
+79,"Materi pengenalan jurusan terlalu singkat, padahal itu informasi yang paling kami butuhkan.",negatif,materi,initial_curated
+80,"Narasumber datang terlambat hampir 45 menit sehingga sesi berikutnya ikut tergeser.",negatif,pemateri,initial_curated
+81,"Kapasitas ruangan tidak sebanding dengan jumlah mahasiswa sehingga kami duduk sangat berhimpitan.",negatif,fasilitas,initial_curated
+82,"Pengumuman perubahan jadwal mendadak lewat grup chat tengah malam sangat mengganggu waktu istirahat.",negatif,jadwal,initial_curated
+83,"Panitia kurang sigap saat hujan turun dan mahasiswa kebingungan mencari tempat berteduh.",negatif,panitia,initial_curated
+84,"Antrean pengambilan konsumsi sangat semrawut dan beberapa mahasiswa di gugus belakang kehabisan snack.",negatif,konsumsi,initial_curated
+85,"Pelaksanaan PPKMB tahun ini kurang terorganisir dengan baik dan banyak waktu terbuang sia-sia.",negatif,keseluruhan,initial_curated
+86,"Banyak materi yang kurang relevan dengan kebutuhan mahasiswa baru semester awal.",negatif,materi,initial_curated
+87,"Penyampaian pemateri kurang interaktif sehingga banyak mahasiswa mengantuk di ruangan.",negatif,pemateri,initial_curated
+88,"Proyektor di sisi kanan aula mati sehingga peserta di sayap kanan kesulitan melihat materi.",negatif,fasilitas,initial_curated
+89,"Jam pulang selalu lewat dari jadwal semula sehingga menyulitkan mahasiswa yang naik transportasi umum.",negatif,jadwal,initial_curated
+90,"Aturan atribut dan penugasan dari panitia terlalu memberatkan dan memakan biaya cukup mahal.",negatif,panitia,initial_curated
+91,"Konsumsi datang terlambat melewati jam makan siang sehingga banyak mahasiswa yang sakit maag.",negatif,konsumsi,initial_curated
+92,"Suasana kegiatan terlalu tegang dan penuh tekanan, jauh dari kesan ramah.",negatif,keseluruhan,initial_curated
+93,"Penjelasan teknis pengisian KRS sangat membingungkan dan tidak disertai simulasi langsung.",negatif,materi,initial_curated
+94,"Suara pemateri terlalu pelan dan tidak menggunakan mikrofon dengan benar.",negatif,pemateri,initial_curated
+95,"Kurangnya ventilasi udara di tenda lapangan membuat beberapa peserta pingsan karena kepanasan.",negatif,fasilitas,initial_curated
+96,"Mahasiswa disuruh berkumpul pukul 05.30 pagi tetapi acara baru dimulai pukul 08.00.",negatif,jadwal,initial_curated
+97,"Komunikasi antara panitia pusat dan pendamping gugus sering simpang siur dan membingungkan maba.",negatif,panitia,initial_curated
+98,"Menu makanan kurang layak dan tidak ada opsi pengganti bagi mahasiswa yang alergi.",negatif,konsumsi,initial_curated
+99,"Saya merasa kurang nyaman dengan sistem evaluasi lisan yang terkesan mencari-cari kesalahan mahasiswa.",negatif,keseluruhan,initial_curated
+100,"Materi yang disampaikan hanya bersifat seremonial dan kurang menyentuh aspek praktis perkuliahan.",negatif,materi,initial_curated
+101,"Sesi tanya jawab dipotong begitu saja karena pemateri kehabisan waktu.",negatif,pemateri,initial_curated
+102,"Tempat sampah sangat kurang sehingga area sekitar aula menjadi kotor setelah jam makan siang.",negatif,fasilitas,initial_curated
+103,"Jadwal sesi sore terlalu padat tanpa jeda peregangan sama sekali.",negatif,jadwal,initial_curated
+104,"Beberapa panitia tidak memberikan contoh yang baik karena mengobrol keras saat pemateri berbicara.",negatif,panitia,initial_curated
+105,"Pembagian air minum sangat lambat ketika kegiatan outdoor di bawah terik matahari.",negatif,konsumsi,initial_curated
+106,"Secara keseluruhan masih banyak kekurangan teknis yang harus segera diperbaiki tahun depan.",negatif,keseluruhan,initial_curated
+107,"File materi tidak dibagikan kepada mahasiswa padahal penjelasannya sangat cepat.",negatif,materi,initial_curated
+108,"Pemateri terlalu banyak menggunakan istilah asing tanpa penjelasan sehingga sulit dipahami.",negatif,pemateri,initial_curated
+109,"Kursi lipat yang disediakan banyak yang rusak dan tidak nyaman diduduki berjam-jam.",negatif,fasilitas,initial_curated
+110,"Durasi mobilisasi antar gedung terlalu sempit sehingga mahasiswa harus berlari-lari.",negatif,jadwal,initial_curated
+111,"Instruksi dari panitia lapangan sering berubah-ubah dan membuat barisan menjadi kacau.",negatif,panitia,initial_curated
+112,"Kualitas snack pagi kurang segar dan kemasannya banyak yang rusak.",negatif,konsumsi,initial_curated
+113,"Pelaksanaan sesi pembukaan terlalu lama di bawah panas matahari.",negatif,keseluruhan,initial_curated
+114,"Materi tentang administrasi keuangan kampus kurang jelas dan memicu banyak kebingungan.",negatif,materi,initial_curated
+115,"Moderator kurang mampu mengatur jalannya diskusi sehingga waktu habis untuk satu pertanyaan saja.",negatif,pemateri,initial_curated
+116,"Koneksi internet di gedung kegiatan mati total saat kami diminta mengisi presensi online.",negatif,fasilitas,initial_curated
+117,"Jadwal istirahat sholat жумat dan dzuhur terlalu mepet dengan sesi siang.",negatif,jadwal,initial_curated
+118,"Panitia kurang ramah saat menjawab pertanyaan mahasiswa baru yang belum hafal denah kampus.",negatif,panitia,initial_curated
+119,"Sayur pada makan siang hari terakhir sudah berbau asam dan tidak layak konsumsi.",negatif,konsumsi,initial_curated
+120,"Evaluasi kegiatan ini perlu perhatian serius karena banyak peserta yang kelelahan fisik ekstrem.",negatif,keseluruhan,initial_curated
+121,"Kegiatan PPKMB dilaksanakan selama tiga hari mulai pukul 07.00 hingga 16.00 WIB.",netral,jadwal,initial_curated
+122,"Acara hari pertama bertempat di gedung auditorium utama dan hari kedua di fakultas masing-masing.",netral,fasilitas,initial_curated
+123,"Materi yang disampaikan meliputi pengenalan sistem akademik, organisasi mahasiswa, dan wawasan kebangsaan.",netral,materi,initial_curated
+124,"Peserta dibagi menjadi dua puluh gugus yang masing-masing didampingi oleh dua orang panitia.",netral,panitia,initial_curated
+125,"Konsumsi dibagikan dua kali sehari yaitu snack pada pagi hari dan makan siang pada pukul 12.00.",netral,konsumsi,initial_curated
+126,"Pemateri pada sesi pertama adalah Wakil Rektor Bidang Akademik dan Kemahasiswaan.",netral,pemateri,initial_curated
+127,"Seluruh mahasiswa baru diwajibkan mengenakan kemeja putih dan celana atau rok hitam selama kegiatan.",netral,keseluruhan,initial_curated
+128,"Presensi kehadiran dilakukan dua kali yaitu saat kedatangan pagi dan sebelum pulang sore hari.",netral,jadwal,initial_curated
+129,"Setiap sesi materi berlangsung selama kurang lebih enam puluh menit diikuti sesi tanya jawab.",netral,jadwal,initial_curated
+130,"Kegiatan PPKMB diikuti oleh mahasiswa baru dari seluruh fakultas dan program studi.",netral,keseluruhan,initial_curated
+131,"Pada hari terakhir diadakan pengenalan unit kegiatan mahasiswa di lapangan utama kampus.",netral,keseluruhan,initial_curated
+132,"Narasumber tamu berasal dari instansi mitra dan praktisi industri.",netral,pemateri,initial_curated
+133,"Mahasiswa baru membawa perlengkapan tulis dan botol minum tumbler masing-masing sesuai panduan.",netral,fasilitas,initial_curated
+134,"Buku panduan akademik dibagikan dalam format PDF melalui grup informasi gugus.",netral,materi,initial_curated
+135,"Panitia pelaksana terdiri dari unsur dosen, tenaga kependidikan, dan pengurus BEM.",netral,panitia,initial_curated
+136,"Menu makan siang hari pertama adalah nasi, ayam goreng, sayur capcay, dan buah pisang.",netral,konsumsi,initial_curated
+137,"Sesi pengenalan jurusan dilaksanakan secara terpisah di ruang kelas gedung fakultas.",netral,fasilitas,initial_curated
+138,"Jadwal kegiatan hari kedua dimulai pukul 07.30 WIB dengan agenda apel pagi.",netral,jadwal,initial_curated
+139,"Materi peraturan akademik mencakup ketentuan jumlah SKS, cuti akademik, dan evaluasi studi.",netral,materi,initial_curated
+140,"Pemateri menggunakan media presentasi slide dan video profil kampus.",netral,pemateri,initial_curated
+141,"Pendamping gugus bertugas mencatat kehadiran dan mengumpulkan penugasan mahasiswa baru.",netral,panitia,initial_curated
+142,"Pengambilan konsumsi dilakukan secara bergiliran per gugus sesuai arahan panitia.",netral,konsumsi,initial_curated
+143,"Pelaksanaan kegiatan dilakukan secara luring sepenuhnya di lingkungan kampus utama.",netral,keseluruhan,initial_curated
+144,"Terdapat empat sesi materi utama pada hari pertama pelaksanaan PPKMB.",netral,materi,initial_curated
+145,"Daftar hadir dan formulir evaluasi diisi secara daring melalui sistem evaluasi kampus.",netral,keseluruhan,initial_curated
+146,"Waktu istirahat siang dijadwalkan mulai pukul 12.00 sampai dengan pukul 13.00 WIB.",netral,jadwal,initial_curated
+147,"Gedung kegiatan terletak di sebelah barat perpustakaan pusat kampus.",netral,fasilitas,initial_curated
+148,"Sesi kedua diisi oleh pemateri dari bagian layanan bimbingan konseling dan karir.",netral,pemateri,initial_curated
+149,"Panitia membagikan tanda pengenal peserta saat registrasi di hari pertama.",netral,panitia,initial_curated
+150,"Peserta yang memiliki pantangan makanan tertentu melapor kepada divisi konsumsi saat registrasi.",netral,konsumsi,initial_curated
+151,"Kegiatan ditutup dengan pembacaan ikrar mahasiswa baru pada sore hari.",netral,keseluruhan,initial_curated
+152,"Materi pengenalan perpustakaan mencakup prosedur peminjaman buku dan akses jurnal elektronik.",netral,materi,initial_curated
+153,"Narasumber menyampaikan paparan selama empat puluh lima menit.",netral,pemateri,initial_curated
+154,"Kapasitas gedung utama digunakan untuk menampung peserta sesi pleno tingkat universitas.",netral,fasilitas,initial_curated
+155,"Rundown kegiatan dibagikan melalui grup komunikasi masing-masing gugus.",netral,jadwal,initial_curated
+156,"Divisi acara mengatur urutan tampil unit kegiatan mahasiswa saat sesi expo.",netral,panitia,initial_curated
+157,"Setiap peserta mendapatkan satu kotak snack dan satu kotak makan siang.",netral,konsumsi,initial_curated
+158,"Tahun ini kegiatan PPKMB mengangkat tema pembentukan karakter mahasiswa unggul.",netral,keseluruhan,initial_curated
+159,"Materi kurikulum menjelaskan pembagian mata kuliah wajib dan mata kuliah pilihan.",netral,materi,initial_curated
+160,"Sesi diskusi dipandu oleh seorang moderator dari kalangan dosen.",netral,pemateri,initial_curated
+161,"Area parkir kendaraan mahasiswa diarahkan ke lapangan timur selama kegiatan berlangsung.",netral,fasilitas,initial_curated
+162,"Pergantian antar sesi ditandai dengan bel pengingat dari meja operator.",netral,jadwal,initial_curated
+163,"Panitia medis berjaga di posko kesehatan yang berada di samping aula.",netral,panitia,initial_curated
+164,"Air minum isi ulang ditempatkan di bagian depan dan belakang gedung kegiatan.",netral,konsumsi,initial_curated
+165,"Peserta mengikuti rangkaian kegiatan dari pembukaan hingga penutupan sesuai ketentuan.",netral,keseluruhan,initial_curated
+166,"Informasi mengenai pembagian kelas perwalian disampaikan pada sesi fakultas.",netral,materi,initial_curated
+167,"Pemateri sesi ketiga berasal dari pusat teknologi informasi dan pangkalan data kampus.",netral,pemateri,initial_curated
+168,"Fasilitas ruangan yang digunakan meliputi aula serbaguna dan ruang teater fakultas.",netral,fasilitas,initial_curated
+169,"Kegiatan hari ketiga berlangsung setengah hari hingga pukul 13.00 WIB.",netral,jadwal,initial_curated
+170,"Panitia melakukan pengecekan kelengkapan atribut peserta sebelum memasuki ruangan.",netral,panitia,initial_curated
+171,"Distribusi konsumsi dilakukan pada saat jeda istirahat siang.",netral,konsumsi,initial_curated
+172,"Dokumentasi kegiatan diunggah melalui kanal media sosial resmi kepanitiaan.",netral,keseluruhan,initial_curated
+173,"Materi profil fakultas memaparkan sejarah, visi, misi, dan struktur organisasi dekanat.",netral,materi,initial_curated
+174,"Terdapat tiga orang pembicara dalam sesi talkshow kebangsaan.",netral,pemateri,initial_curated
+175,"Penggunaan ruangan disesuaikan dengan jumlah peserta di masing-masing program studi.",netral,fasilitas,initial_curated
+176,"Jadwal pengisian formulir evaluasi dibuka setelah sesi terakhir selesai.",netral,jadwal,initial_curated
+177,"Setiap gugus memiliki koordinator mahasiswa yang berkoordinasi dengan panitia pendamping.",netral,panitia,initial_curated
+178,"Konsumsi untuk peserta didistribusikan di titik kumpul masing-masing gugus.",netral,konsumsi,initial_curated
+179,"Pelaksanaan PPKMB tahun akademik ini berlangsung pada pekan kedua bulan September.",netral,keseluruhan,initial_curated
+180,"Belum ada saran tambahan untuk sesi ini karena informasi sudah tertulis di buku panduan.",netral,keseluruhan,initial_curated

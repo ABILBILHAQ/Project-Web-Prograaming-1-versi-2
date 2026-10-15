@@ -1,0 +1,132 @@
+{
+  "status": "success",
+  "model_version": "tfidf-logreg-nb-v1.180",
+  "evaluation_method": "Stratified 5-Fold Cross-Validation & 80/20 Hold-Out Split",
+  "dataset_size": 180,
+  "class_distribution": {
+    "positif": 60,
+    "negatif": 60,
+    "netral": 60
+  },
+  "accuracy": 0.9278,
+  "precision": 0.9308,
+  "recall": 0.9278,
+  "f1_score": 0.9277,
+  "per_class": {
+    "positif": {
+      "precision": 0.9474,
+      "recall": 0.9,
+      "f1_score": 0.9231,
+      "support": 60,
+      "tp": 54,
+      "fp": 3,
+      "fn": 6
+    },
+    "negatif": {
+      "precision": 0.9643,
+      "recall": 0.9,
+      "f1_score": 0.931,
+      "support": 60,
+      "tp": 54,
+      "fp": 2,
+      "fn": 6
+    },
+    "netral": {
+      "precision": 0.8806,
+      "recall": 0.9833,
+      "f1_score": 0.9291,
+      "support": 60,
+      "tp": 59,
+      "fp": 8,
+      "fn": 1
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "positif",
+      "negatif",
+      "netral"
+    ],
+    "matrix": [
+      [
+        54,
+        1,
+        5
+      ],
+      [
+        3,
+        54,
+        3
+      ],
+      [
+        0,
+        1,
+        59
+      ]
+    ]
+  },
+  "holdout_80_20": {
+    "accuracy": 0.9722,
+    "precision_macro": 0.9744,
+    "recall_macro": 0.9722,
+    "f1_macro": 0.9722,
+    "per_class": {
+      "positif": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 12,
+        "tp": 12,
+        "fp": 0,
+        "fn": 0
+      },
+      "negatif": {
+        "precision": 0.9231,
+        "recall": 1.0,
+        "f1_score": 0.96,
+        "support": 12,
+        "tp": 12,
+        "fp": 1,
+        "fn": 0
+      },
+      "netral": {
+        "precision": 1.0,
+        "recall": 0.9167,
+        "f1_score": 0.9565,
+        "support": 12,
+        "tp": 11,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "positif",
+        "negatif",
+        "netral"
+      ],
+      "matrix": [
+        [
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          1,
+          11
+        ]
+      ]
+    },
+    "total_evaluated": 36,
+    "correct_predictions": 35
+  },
+  "evaluated_at": "2026-10-14 14:27:44",
+  "Vocabulary_size": 2304,
+  "trained_at": "2026-10-14 14:27:41"
+}
